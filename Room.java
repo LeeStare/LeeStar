@@ -84,13 +84,13 @@ public class Room extends JFrame {
 		
 		JLabel lblNewLabel = new JLabel("Room manage");
 		lblNewLabel.setForeground(new Color(255, 255, 255));
-		lblNewLabel.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 40));
+		lblNewLabel.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 40));
 		lblNewLabel.setBounds(14, 24, 364, 60);
 		panel_1.add(lblNewLabel);
 		
 		JLabel numlblId = new JLabel("Number : ");
 		numlblId.setHorizontalAlignment(SwingConstants.RIGHT);
-		numlblId.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 20));
+		numlblId.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 20));
 		numlblId.setBounds(29, 147, 120, 24);
 		panel.add(numlblId);
 		
@@ -99,24 +99,24 @@ public class Room extends JFrame {
 		panel.add(numtextField);
 		numtextField.setColumns(10);
 		
-		JLabel lblRes = new JLabel("Resverd : ");
+		JLabel lblRes = new JLabel("Reserved : ");
 		lblRes.setHorizontalAlignment(SwingConstants.RIGHT);
-		lblRes.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 20));
+		lblRes.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 20));
 		lblRes.setBounds(29, 355, 120, 24);
 		panel.add(lblRes);
 		
 		JLabel lblQuality = new JLabel("Quality : ");
 		lblQuality.setHorizontalAlignment(SwingConstants.RIGHT);
-		lblQuality.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 20));
+		lblQuality.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 20));
 		lblQuality.setBounds(29, 318, 120, 24);
 		panel.add(lblQuality);
 		
 		JLabel lblSmoking = new JLabel("Smoking : ");
 		lblSmoking.setHorizontalAlignment(SwingConstants.RIGHT);
-		lblSmoking.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 20));
+		lblSmoking.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 20));
 		lblSmoking.setBounds(29, 236, 120, 24);
 		panel.add(lblSmoking);
-		table.setFont(new Font("·L³n¥¿¶ÂÅé", Font.PLAIN, 15));
+		table.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.PLAIN, 15));
 		
 		
 		
@@ -162,9 +162,9 @@ public class Room extends JFrame {
 		
 		
 		JRadioButton jrb1 = new JRadioButton("NO");
-		jrb1.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 15));
+		jrb1.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 15));
 		JRadioButton jrb2 = new JRadioButton("YES");
-		jrb2.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 15));
+		jrb2.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 15));
 		jrb2.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent arg0) {
 				ResLabel.setText(arg0.getStateChange()==1?"YES":"NO");
@@ -188,7 +188,7 @@ public class Room extends JFrame {
 		panel.add(jrb2);
 		
 		JRadioButton jrS1 = new JRadioButton("YES");
-		jrS1.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 15));
+		jrS1.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 15));
 		jrS1.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent arg0) {
 				SmokingLabel.setText(arg0.getStateChange()==1?"YES":"NO");
@@ -203,7 +203,7 @@ public class Room extends JFrame {
 		panel.add(jrS1);
 		
 		JRadioButton jrS2 = new JRadioButton("NO");
-		jrS2.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 15));
+		jrS2.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 15));
 		jrS2.setBounds(306, 236, 150, 27);
 		panel.add(jrS2);
 		jrS2.addItemListener(new ItemListener() {
@@ -216,7 +216,7 @@ public class Room extends JFrame {
 		
 		JLabel labelPhone = new JLabel("Phone : ");
 		labelPhone.setHorizontalAlignment(SwingConstants.RIGHT);
-		labelPhone.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 20));
+		labelPhone.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 20));
 		labelPhone.setBounds(29, 191, 120, 24);
 		panel.add(labelPhone);
 		
@@ -227,7 +227,7 @@ public class Room extends JFrame {
 		
 		JLabel lblType = new JLabel("Type : ");
 		lblType.setHorizontalAlignment(SwingConstants.RIGHT);
-		lblType.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 20));
+		lblType.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 20));
 		lblType.setBounds(29, 281, 120, 24);
 		panel.add(lblType);
 		
@@ -250,11 +250,11 @@ public class Room extends JFrame {
 				roomType.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 			}
 		});
-		showTypebtn.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 15));
+		showTypebtn.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 15));
 		showTypebtn.setBounds(307, 281, 149, 27);
 		panel.add(showTypebtn);
 		
-		String[] starStrings =  new String[] { "¡¸¡¸¡¹", "¡¸¡¹¡¹", "¡¹¡¹¡¹"};
+		String[] starStrings =  new String[] { "â˜†â˜†â˜…", "â˜†â˜…â˜…", "â˜…â˜…â˜…"};
 		DefaultComboBoxModel<String> comboModel = new DefaultComboBoxModel<String>(new String[] {"", "\u2606\u2606\u2605", "\u2606\u2605\u2605", "\u2605\u2605\u2605"});
 		JComboBox<String> qualityComboBox = new JComboBox<>(comboModel);
 		qualityComboBox.setBounds(151, 319, 305, 25);
@@ -262,7 +262,7 @@ public class Room extends JFrame {
 		
 		
 		JButton addbtn = new JButton("Add New Customer");
-		addbtn.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 18));
+		addbtn.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 18));
 		addbtn.addActionListener(new ActionListener()
 		{
 			public void actionPerformed(ActionEvent e)
@@ -311,7 +311,7 @@ public class Room extends JFrame {
 		panel.add(addbtn);
 		
 		JButton editbtn = new JButton("Edit");
-		editbtn.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 18));
+		editbtn.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 18));
 		editbtn.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		editbtn.addActionListener(new ActionListener()
 		{
@@ -359,7 +359,7 @@ public class Room extends JFrame {
 		panel.add(editbtn);
 		
 		JButton removebtn = new JButton("Remove");
-		removebtn.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 18));
+		removebtn.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 18));
 		removebtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0)
 			{
@@ -387,7 +387,7 @@ public class Room extends JFrame {
 		panel.add(removebtn);
 		
 		JButton clearbtn = new JButton("Clear Data");
-		clearbtn.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 18));
+		clearbtn.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 18));
 		clearbtn.addActionListener(new ActionListener()
 		{
 			public void actionPerformed(ActionEvent e)
@@ -442,7 +442,7 @@ public class Room extends JFrame {
 		});
 		
 		JButton refbtn = new JButton("Refresh");
-		refbtn.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 15));
+		refbtn.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 15));
 		refbtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e)
 			{
@@ -474,7 +474,7 @@ public class Room extends JFrame {
 		panel.add(refbtn);
 		
 		JButton button = new JButton("Reset");
-		button.setFont(new Font("·L³n¥¿¶ÂÅé", Font.BOLD, 15));
+		button.setFont(new Font("å¾®è»Ÿæ­£é»‘é«”", Font.BOLD, 15));
 		button.addActionListener(new ActionListener()
 		{
 			public void actionPerformed(ActionEvent arg0)
@@ -482,7 +482,7 @@ public class Room extends JFrame {
 				try {
 					RoomC.resetAI();
 				} catch (SQLException e) {
-					// TODO ¦Û°Ê²£¥Íªº catch °Ï¶ô
+					// TODO è‡ªå‹•ç”¢ç”Ÿçš„ catch å€å¡Š
 					e.printStackTrace();
 				}
 			}
